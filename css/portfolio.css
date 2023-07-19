@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+}
+/* header-css-start */
+header {
+  height: 60px;
+  padding: 16px 0px;
+  background-color: orangered;
+}
+header a {
+  color: #18191f;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.break {
+  display: block;
+}
+header nav ul {
+  text-align: right;
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* -----------------------------------------------------header-css-end --------------------------------------*/
+/* portfolio-section-start */
+.portfolio {
+  padding: 70px 0px;
+  background-color: lightgray;
+  width: 100vw;
+  height: 70vh;
+}
+.portfolio h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 70px;
+  text-decoration: underline;
+}
+/* ---------------------------------------------------------portfolio-section-start----------------------- */

@@ -1,0 +1,149 @@
+body {
+  box-sizing: border-box;
+}
+/* header-css-start */
+header {
+  height: 60px;
+  padding: 16px 0px;
+  background-color: orangered;
+}
+header a {
+  color: #18191f;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.break {
+  display: block;
+}
+header nav ul {
+  text-align: right;
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* -----------------------------------------------------header-css-end --------------------------------------*/
+/* home-css-start */
+.home {
+  padding: 70px 0px;
+}
+.home {
+  background-image: url("../image/photo.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  width: 100vw;
+  height: 80vh;
+}
+.home h2 {
+  text-align: left;
+  padding-top: 203px;
+  font-weight: 600;
+  font-size: 60px;
+  color: #18191f;
+  margin-bottom: 24px;
+  font-family: sans-serif;
+}
+/*----------------------------------------------------------- home-css-end ----------------------------*/
+
+/* about-css-start */
+.about {
+  padding: 70px 0px;
+  background-color: orangered;
+  width: 100vw;
+  height: 100vh;
+}
+.about img {
+  padding-top: 98px;
+}
+.about .text {
+  padding-top: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about .text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #18191f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.about .text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #18191f;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+/* -------------------------------------------------------------about-css-end------------------------------ */
+
+/* portfolio-css-start */
+.Portfolio {
+  padding: 70px 0px;
+}
+.Portfolio h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+/*-------------------------------------------------------------- portfolio-css-end--------------------------------- */
+
+/* contact-css-start */
+.Contact {
+  padding: 70px 0px;
+  background-color: orangered;
+}
+.Contact .cont {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.Contact input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+}
+
+.Contact input[type="submit"] {
+  background-color: #18191f;
+  color: orangered;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Contact input[type="submit"]:hover {
+  background-color: white;
+}
+
+.Contact .container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* ------------------------------------------------------------contact-css-end--------------------------------------------*/
